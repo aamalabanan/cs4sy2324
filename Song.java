@@ -12,9 +12,9 @@ public class Song {
     private int timesPlayed;
     
     public Song(String title){
-        this.title = title;
-        this.albumname = "";
-        this.timesPlayed = 0;
+        this.title = "Fever";
+        this.albumname = "Dimension";
+        this.timesPlayed = 4;
     }
     
     public String getTitle(){

@@ -12,7 +12,7 @@ public class Singer {
     private int noOfPerformances;
     private double earnings;
     private Song favorteSong;
-    private static int totalPerformances = 0;
+    private static int totalPerformances = 2;
     
     public Singer(String name){
         this.name = "Enhypen";

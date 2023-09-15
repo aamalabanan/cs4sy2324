@@ -17,8 +17,10 @@ public class MainCode {
         Singer b = new Singer("Enhypen");
         Song c = new Song ("Blue Hour");
         Singer d = new Singer("TXT");
-        b.performForAudience(10, d);
+        b.performForAudience(10, "TXT");
         
+        System.out.println("Enhypen has performed on an event with 10 people.");
+        System.out.println("Enhypen has performed on an event with 10 people with collaboration with TXT");
         // TODO code application logic here
     }
     
